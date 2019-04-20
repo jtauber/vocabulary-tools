@@ -10,9 +10,9 @@
 - morphological tag (new)
 - lemma
 
-Each of `verses.txt`, `sentences.txt`, `paragraphs.txt`, `pericopes.txt`
-respectively maps verses, sentences, paragraphs and pericopes to a range of
-tokens. The columns are:
+Each of `books.txt`, `chapters.txt`, `verses.txt`, `sentences.txt`,
+`paragraphs.txt`, `pericopes.txt` respectively maps books, chapters, verses,
+sentences, paragraphs and pericopes to a range of tokens. The columns are:
 
 - identifier
 - start token id
