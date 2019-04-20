@@ -211,3 +211,99 @@ Or pericopes:
 
 Obviously frequency order is not the most efficient way to get enough
 vocabulary to read an entire pericope.
+
+What about those easier to read sentences?
+==========================================
+
+Above we saw that 1.99% of sentences are completely readable with the 100
+most frequent lemmas. But what sentences are they?
+
+It's fairly straightforward to work out. Recall that the numbers in the cells
+of the tables were achieved by narrowing down the chunks to just those that had
+a `lowest_rank_needed` of less than the rank learned and then counting the
+chunks? Well now we don't want to just count them, we want to list them!
+
+>>> rank_list_per_sentence = {
+...     sentence: sorted([ranked_lemmas[lemma] for lemma in lemmas])
+...     for sentence, lemmas in get_tokens_by_chunk(TokenType.lemma, ChunkType.sentence).items()
+... }
+
+>>> coverage = 1.0
+>>> lowest_rank_needed = {
+...     sentence:rank_list[math.ceil(coverage * len(rank_list)) - 1]
+...     for sentence, rank_list in rank_list_per_sentence.items()
+... }
+
+>>> sentences = [sentence for sentence, freq in lowest_rank_needed.items() if freq <= 100]
+>>> len(sentences)
+159
+
+Remarkably, even just the top 20 most frequent lemmas give us 5 sentences.
+
+>>> sentences = [sentence for sentence, freq in lowest_rank_needed.items() if freq <= 20]
+>>> len(sentences)
+5
+
+>>> sentences
+['610995', '640021', '640855', '830054', '830094']
+
+>>> for sentence in sentences:
+...     print(" ".join(token for token in get_tokens(TokenType.text, ChunkType.sentence, sentence)))
+λέγει αὐτῷ· Σὺ εἶπας.
+καὶ λέγει· Οὐκ εἰμί.
+λέγει αὐτοῖς· Ἐγώ εἰμι.
+καὶ ἐσμέν.
+ἡμεῖς ἐκ τοῦ θεοῦ ἐσμεν·
+
+What about by forms?
+====================
+
+I've talked a lot elsewhere about lemmas vs forms as the item focus. What do
+some of these stats looks like by form? We'll stick with sentences.
+
+where
+
+>>> gnt_forms = Counter(get_tokens(TokenType.form))
+>>> print_coverage_table(
+...     gnt_forms,
+...     get_tokens_by_chunk(TokenType.form, ChunkType.sentence),
+...     [0.50, 0.80, 0.90, 0.95, 0.98, 1.00],
+...     [100, 200, 500, 1000, 2000, 5000, 10000]
+... )
+           50.00%    80.00%    90.00%    95.00%    98.00%   100.00%
+-------------------------------------------------------------------
+    100    58.73%     0.78%     0.10%     0.08%     0.08%     0.08%
+    200    79.62%     4.18%     0.70%     0.44%     0.44%     0.44%
+    500    92.98%    16.29%     3.38%     1.84%     1.79%     1.79%
+   1000    96.77%    35.65%    10.11%     5.19%     4.85%     4.85%
+   2000    98.55%    59.51%    24.26%    12.07%    10.73%    10.73%
+   5000    99.69%    84.31%    54.60%    34.45%    28.97%    28.91%
+  10000    99.91%    94.10%    78.25%    64.54%    59.29%    59.21%
+    ALL   100.00%   100.00%   100.00%   100.00%   100.00%   100.00%
+
+>>> ranked_forms = {x[0]: i for i, x in enumerate(gnt_forms.most_common(), 1)}
+>>> form_rank_list_per_sentence = {
+...     sentence: sorted([ranked_forms[form] for form in forms])
+...     for sentence, forms in get_tokens_by_chunk(TokenType.form, ChunkType.sentence).items()
+... }
+
+>>> coverage = 1.0
+>>> lowest_rank_needed = {
+...     sentence:rank_list[math.ceil(coverage * len(rank_list)) - 1]
+...     for sentence, rank_list in form_rank_list_per_sentence.items()
+... }
+
+With forms, the top 100 only gives us 6 sentences.
+
+>>> sentences = [sentence for sentence, freq in lowest_rank_needed.items() if freq <= 100]
+>>> len(sentences)
+6
+
+>>> for sentence in sentences:
+...     print(" ".join(token for token in get_tokens(TokenType.text, ChunkType.sentence, sentence)))
+τί οὖν ἐστιν;
+Τί οὖν;
+ὅτι ἐξ αὐτοῦ καὶ δι’ αὐτοῦ καὶ εἰς αὐτὸν τὰ πάντα·
+τί οὖν ἐστιν;
+ὁ δὲ κύριος τὸ πνεῦμά ἐστιν·
+τί γάρ;
