@@ -73,7 +73,23 @@ And how much of those texts is that?
 >>> sum(johannine_lemmas.values())
 18039
 
->>> round(sum(johannine_at_least_10.values()) / sum(johannine_lemmas.values()), 2)
-0.89
+>>> round(sum(johannine_at_least_10.values()) / sum(johannine_lemmas.values()), 3)
+0.887
 
-(i.e. 89% by token)
+(i.e. 88.7% by token)
+
+By token, what coverage will the top 10 lemmas in the entire GNT give me?
+=========================================================================
+
+>>> round(sum(count for token, count in gnt_lemmas.most_common(10)) / sum(gnt_lemmas.values()), 3)
+0.377
+
+(i.e. 37.7%)
+
+And the top 100 lemmas?
+=======================
+
+>>> round(sum(count for token, count in gnt_lemmas.most_common(100)) / sum(gnt_lemmas.values()), 3)
+0.662
+
+(i.e. 66.2%)
