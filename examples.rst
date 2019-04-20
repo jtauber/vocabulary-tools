@@ -46,3 +46,34 @@ Words in the Wedding at Cana pericope not in the 80% Vocabulary for John's Gospe
 >>> john80 = tokens_for_coverage(john_lemmas, 0.8)
 >>> sorted(cana_lemmas.keys() - john80.keys())
 ['Κανά', 'γάμος', 'γεμίζω', 'γεύομαι', 'διάκονος', 'δύο', 'καθαρισμός', 'καλέω', 'καλός', 'κατά', 'κεῖμαι', 'λίθινος', 'μήτηρ', 'μεθύω', 'μετρητής', 'νυμφίος', 'οἶνος', 'οὔπω', 'πρῶτος', 'πόθεν', 'τρίτος', 'τρεῖς', 'φανερόω', 'φωνέω', 'χωρέω', 'ἀνά', 'ἀντλέω', 'ἀρχή', 'ἀρχιτρίκλινος', 'ἄνω', 'ἄρτι', 'ἐλάσσων', 'ἕξ', 'ἕως', 'ἤ', 'ἥκω', 'ὑδρία', 'ὑστερέω']
+
+
+What is left from the Core 80% GNT Vocabulary if you've read the Johannine Epistles and Gospel?
+===============================================================================================
+
+>>> johannine_lemmas = Counter(get_tokens(TokenType.lemma, ChunkType.book, "64")) + Counter(get_tokens(TokenType.lemma, ChunkType.book, "83")) + Counter(get_tokens(TokenType.lemma, ChunkType.book, "84")) + Counter(get_tokens(TokenType.lemma, ChunkType.book, "85"))
+>>> gnt80 = tokens_for_coverage(gnt_lemmas, 0.8)
+>>> sorted(gnt80.keys() - johannine_lemmas.keys())
+['Παῦλος', 'γραμματεύς', 'διό', 'δύναμις', 'εἴτε', 'εὐαγγέλιον', 'εὐαγγελίζω', 'θρόνος', 'κηρύσσω', 'λοιπός', 'παραβολή', 'παρακαλέω', 'προσεύχομαι', 'πρόσωπον', 'σοφία', 'ἀποδίδωμι', 'ἄρα', 'ἑπτά', 'Ἰερουσαλήμ', 'ὑπάρχω']
+
+
+How many words appear at least 10 times in the Johannine Epistles and Gospel?
+============================================================================
+
+>>> johannine_at_least_10 = Counter({token:count for token, count in johannine_lemmas.items() if count >= 10})
+>>> len(johannine_at_least_10)
+231
+
+And how much of text is that?
+=============================
+
+>>> sum(johannine_at_least_10.values())
+16004
+
+>>> sum(johannine_lemmas.values())
+18039
+
+>>> round(sum(johannine_at_least_10.values()) / sum(johannine_lemmas.values()), 2)
+0.89
+
+(i.e. 89% by token)
