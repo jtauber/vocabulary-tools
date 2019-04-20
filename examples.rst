@@ -64,8 +64,8 @@ How many words appear at least 10 times in the Johannine Epistles and Gospel?
 >>> len(johannine_at_least_10)
 231
 
-And how much of text is that?
-=============================
+And how much of those texts is that?
+====================================
 
 >>> sum(johannine_at_least_10.values())
 16004
