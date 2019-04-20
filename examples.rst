@@ -307,3 +307,6 @@ With forms, the top 100 only gives us 6 sentences.
 τί οὖν ἐστιν;
 ὁ δὲ κύριος τὸ πνεῦμά ἐστιν·
 τί γάρ;
+
+But this sets us up for the next step: what if we order by something other than
+straight frequency?
