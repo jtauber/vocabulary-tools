@@ -3,9 +3,10 @@
 
 
 >>> from collections import Counter
+>>> import math
 
->>> from gnt_data import get_tokens, TokenType, ChunkType
->>> from calc import tokens_for_coverage
+>>> from gnt_data import get_tokens, get_tokens_by_chunk, TokenType, ChunkType
+>>> from calc import tokens_for_coverage, print_coverage_table
 
 
 10 most common lemmas in GNT
@@ -93,3 +94,120 @@ And the top 100 lemmas?
 0.662
 
 (i.e. 66.2%)
+
+Let's improve this by looking at actual verse coverage
+======================================================
+
+First we build a mapping of lemmas to their frequency rank:
+
+>>> ranked_lemmas = {x[0]: i for i, x in enumerate(gnt_lemmas.most_common(), 1)}
+>>> ranked_lemmas["λόγος"]
+55
+
+(in other words, λόγος is the 55th most frequent lemma in the GNT)
+
+Then for each verse, we generate a sorted list of frequency ranks for the lemmas:
+
+>>> rank_list_per_verse = {
+...     verse: sorted([ranked_lemmas[lemma] for lemma in lemmas])
+...     for verse, lemmas in get_tokens_by_chunk(TokenType.lemma, ChunkType.verse).items()
+... }
+>>> rank_list_per_verse["640316"]
+[1, 1, 1, 1, 1, 3, 10, 14, 16, 17, 18, 23, 27, 29, 44, 48, 64, 78, 85, 119, 128, 191, 204, 239, 1189]
+
+In other words, John 3.16 contains the most frequent lemma (5 times), the 3rd
+most frequent lemma, the 10th most frequent lemma, and so on.
+
+Now let's say we wanted to have 80% coverage of lemmas in each verse. We build
+this new dictionary for each verse:
+
+>>> coverage = 0.8
+>>> lowest_rank_needed = {
+...     target:rank_list[math.ceil(coverage * len(rank_list)) - 1]
+...     for target, rank_list in rank_list_per_verse.items()
+... }
+>>> lowest_rank_needed["640316"]
+119
+
+This tells us that to reach 80% coverage of John 3.16, assuming we learn lemmas
+in frequency order, we need to learn up to rank 119.
+
+So if we want to know what proportion of verses would be readable at an 80%
+coverage level with the 100 most frequent lemmas, we need to count how many
+verses have a `lowest_rank_needed` of less-than-or-equal to 100.
+
+>>> len([freq for freq in lowest_rank_needed.values() if freq <= 100])
+1049
+
+which as a proportion is:
+
+>>> round(len([freq for freq in lowest_rank_needed.values() if freq <= 100]) / len(rank_list_per_verse), 3)
+0.132
+
+or 13.2%.
+
+Print a nice coverage table
+===========================
+
+As seen in various blog posts and conferences presentations by yours truly.
+
+>>> print_coverage_table(
+...     gnt_lemmas,
+...     get_tokens_by_chunk(TokenType.lemma, ChunkType.verse),
+...     [0.50, 0.80, 0.90, 0.95, 0.98, 1.00],
+...     [100, 200, 500, 1000, 2000, 5000]
+... )
+           50.00%    80.00%    90.00%    95.00%    98.00%   100.00%
+-------------------------------------------------------------------
+    100    91.07%    13.23%     2.14%     0.66%     0.49%     0.49%
+    200    96.85%    35.12%     9.87%     3.47%     2.56%     2.56%
+    500    99.13%    70.88%    36.75%    17.86%    13.85%    13.84%
+   1000    99.72%    88.39%    62.68%    37.30%    30.04%    30.01%
+   2000    99.91%    96.61%    84.98%    65.86%    57.01%    56.97%
+   5000   100.00%    99.82%    99.03%    96.86%    96.09%    96.06%
+    ALL   100.00%   100.00%   100.00%   100.00%   100.00%   100.00%
+
+What about targets other than verses?
+=====================================
+
+One of the things we can now do for the first time is apply this analysis to
+other chunking systems such as sentences, paragraphs, or pericopes.
+
+Here is a table for sentences:
+
+>>> print_coverage_table(
+...     gnt_lemmas,
+...     get_tokens_by_chunk(TokenType.lemma, ChunkType.sentence),
+...     [0.50, 0.80, 0.90, 0.95, 0.98, 1.00],
+...     [100, 200, 500, 1000, 2000, 5000]
+... )
+           50.00%    80.00%    90.00%    95.00%    98.00%   100.00%
+-------------------------------------------------------------------
+    100    91.13%    15.56%     3.68%     2.08%     1.99%     1.99%
+    200    96.65%    37.94%    12.25%     6.32%     5.72%     5.72%
+    500    99.10%    72.73%    39.60%    23.42%    20.05%    20.04%
+   1000    99.77%    89.38%    64.20%    43.72%    37.73%    37.60%
+   2000    99.95%    96.95%    85.96%    71.07%    62.58%    62.17%
+   5000   100.00%    99.82%    99.12%    97.79%    96.63%    96.53%
+    ALL   100.00%   100.00%   100.00%   100.00%   100.00%   100.00%
+
+Or pericopes:
+
+>>> print_coverage_table(
+...     gnt_lemmas,
+...     get_tokens_by_chunk(TokenType.lemma, ChunkType.pericope),
+...     [0.50, 0.80, 0.90, 0.95, 0.98, 1.00],
+...     [100, 200, 500, 1000, 2000, 5000]
+... )
+           50.00%    80.00%    90.00%    95.00%    98.00%   100.00%
+-------------------------------------------------------------------
+    100    98.13%     1.53%     0.00%     0.00%     0.00%     0.00%
+    200    99.66%    18.68%     0.68%     0.00%     0.00%     0.00%
+    500   100.00%    78.78%    17.66%     5.26%     0.34%     0.00%
+   1000   100.00%    94.74%    64.86%    18.51%     5.09%     1.19%
+   2000   100.00%    99.15%    92.02%    67.23%    25.81%     5.43%
+   5000   100.00%   100.00%   100.00%    97.96%    91.17%    85.91%
+    ALL   100.00%   100.00%   100.00%   100.00%   100.00%   100.00%
+
+Obviously frequency order is not the most efficient way to get enough
+vocabulary to read an entire pericope.

@@ -17,15 +17,18 @@ chunk_data_filename = {
 
 
 chunk_data = {}  # (chunk_type, chunk_id) -> (token_start, token_end)
+chunk_ids = {}  # chunk_type -> [chunk_id]
 
 def load_chunk_data():
     for chunk_type, filename in chunk_data_filename.items():
+        chunk_ids[chunk_type] = []
         with open(os.path.join(os.path.dirname(__file__), filename)) as f:
             for line in f:
                 chunk_id, token_start, token_end = line.strip().split()
                 chunk_data[(chunk_type, chunk_id)] = (
                     int(token_start), int(token_end)
                 )
+                chunk_ids[chunk_type].append(chunk_id)
 
 
 token_data = {}  # token_type -> [tokens]
@@ -79,7 +82,24 @@ def get_tokens(token_type, chunk_type=None, chunk_id=None):
         )
 
 
+def get_tokens_by_chunk(token_type, chunk_type):
+    """
+    Return a dictionary mapping the ids of chunks of the given `chunk_type` to
+    a list of tokens if the type `token_type` in that chunkself.
+
+    e.g. `get_tokens_by_chunk(TokenType.lemma, ChunkType.chapter)` will return
+    a dictionary with an entry for each chapter where the key is the chapter
+    identifier and the value is a list of lemmas (with repetitions if they
+    exist)
+    """
+    return {
+        chunk_id: get_tokens(token_type, chunk_type, chunk_id)
+        for chunk_id in chunk_ids[chunk_type]
+    }
+
+
 # for quick testing
 if __name__ == "__main__":
     for token in get_tokens(TokenType.text, ChunkType.verse, "640316"):
         print(token)
+    print(get_tokens_by_chunk(TokenType.lemma, ChunkType.verse)["640316"])
