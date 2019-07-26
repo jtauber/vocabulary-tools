@@ -1,6 +1,120 @@
 import collections
 
 
+def frequency(target_items):
+    """
+    Orders the learning of items based purely on frequency. Targets ordered by
+    when they are achieved.
+
+    The input `target_items` is a dictionary mapping targets to the
+    prerequisite items.
+
+    This is a generator that yields the target along with a set of the items
+    for that target that have not yet been seen (plus any others of higher
+    frequency, even if they aren't needed by the target)
+    """
+
+    # a dictionary mapping targets to a set of items still not learnt
+    MISSING_IN_TARGET = {}
+
+    # a dictionary mapping items to a set of targets the items are needed for
+    # and are missing from
+    TARGETS_MISSING = collections.defaultdict(set)
+
+    c = collections.Counter()
+
+    for target, items in target_items.items():
+        c.update(items)
+
+        MISSING_IN_TARGET[target] = set(items)
+        for item in items:
+            TARGETS_MISSING[item].add(target)
+
+    ITEMS_TO_LEARN = set()
+
+    for next_item, count in c.most_common():
+
+        ITEMS_TO_LEARN.add(next_item)
+
+        # for each target missing that item, remove the item
+        for target in TARGETS_MISSING[next_item]:
+            MISSING_IN_TARGET[target].remove(next_item)
+
+            # if the target is now missing no items...
+            if len(MISSING_IN_TARGET[target]) == 0:
+
+                yield target, ITEMS_TO_LEARN
+
+                # remove from missing in that target
+                del MISSING_IN_TARGET[target]
+
+                # reset items to learn
+                ITEMS_TO_LEARN = set()
+
+        # remove the item from all targets requiring it
+        del TARGETS_MISSING[next_item]
+
+
+def frequency_optimised(target_items):
+    """
+    Orders the learning of targets by firstly ordering items by frequency but
+    then only requiring learning of those items required by the targets
+    achievable by the frequency ordering.
+
+    The input `target_items` is a dictionary mapping targets to the
+    prerequisite items.
+
+    This is a generator that yields the target along with a set of the items
+    for that target that have not yet been seen.
+    """
+
+    # track the set of all items already learnt
+    ALREADY_LEARNT = set()
+
+    # a dictionary mapping targets to the set of prerequisite items
+    IN_TARGET = {}
+
+    # a dictionary mapping targets to a set of items still not learnt
+    MISSING_IN_TARGET = {}
+
+    # a dictionary mapping items to a set of targets the items are needed for
+    # and are missing from
+    TARGETS_MISSING = collections.defaultdict(set)
+
+    c = collections.Counter()
+
+    for target, items in target_items.items():
+        c.update(items)
+
+        IN_TARGET[target] = set(items)
+        MISSING_IN_TARGET[target] = set(items)
+        for item in items:
+            TARGETS_MISSING[item].add(target)
+
+    for next_item, count in c.most_common():
+
+        # for each target missing that item, remove the item
+        for target in TARGETS_MISSING[next_item]:
+            MISSING_IN_TARGET[target].remove(next_item)
+
+            # if the target is now missing no items...
+            if len(MISSING_IN_TARGET[target]) == 0:
+
+                # calculate what is new to learn for that target
+                items_to_learn = IN_TARGET[target] - ALREADY_LEARNT
+
+                yield target, items_to_learn
+
+                # remove from missing in that target
+                del MISSING_IN_TARGET[target]
+
+                # add to items already learnt
+                ALREADY_LEARNT.update(items_to_learn)
+
+        # remove the item from all targets requiring it
+        del TARGETS_MISSING[next_item]
+
+
 def next_best(target_items):
     """
     Orders the learning of targets based on, at each step, assigning a score to
