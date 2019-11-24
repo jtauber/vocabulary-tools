@@ -64,3 +64,29 @@ def print_coverage_table(overall_items, items_by_target, COVERAGE, ITEM_COUNTS):
         num = len([freq for freq in lowest_rank_needed[coverage].values() if freq <= len(ranked_items)])
         print("{:10.2%}".format(num / len(rank_list_per_chunk)), end="")
     print()
+
+
+def rank_with_ties(counter):
+    """
+    given given a Counter build dictionary mapping each item to its rank.
+
+    e.g. {'ὁ': 1, 'καί': 2, 'αὐτός': 3, 'ἐγώ': 4, 'λέγω': 5, ...}
+
+    Note that items occuring the same number of times will have the same rank
+    and it will always be 1 more than the number of more frequency items so
+    ranks are skipped if there are ties (you might get 1, 2, 2, 4 for example).
+    """
+
+    item_rank = {}
+    prev_count = math.inf  # == no previous
+    inc1 = 0  # this goes up with each item
+    inc2 = 0  # this is set to inc1 whenever the next item has a lower count
+
+    for count, item in sorted(((count, item) for item, count in counter.items()), reverse=True):
+        inc1 += 1
+        if count < prev_count:
+            inc2 = inc1
+            prev_count = count
+        item_rank[item] = inc2
+
+    return item_rank
