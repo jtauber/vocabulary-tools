@@ -133,3 +133,21 @@ def print_tier_summary(counter, perc_tiers, count_tiers):
             print(f"The {round(100 * cumulative / TOTAL, 2):.02f}% point is reached at {i} lemmas ({count} occurrences at that point)")
             tiers = tiers[1:]
     print(f"{TOTAL} tokens")
+
+
+def cumulative_frequency(counter, limit=None):
+    """
+    given a Counter, build dictionary mapping each item (up to `limit` items)
+    to its cumulative frequency.
+
+    e.g. {'ὁ' 0.1339, 'καί' 0.1868, 'δέ' 0.2187, 'εἰμί' 0.2381, 'αὐτός' 0.2542}
+    """
+
+    total = sum(counter.values())
+    cumulative = 0
+    cumfreq_dict = {}
+    for lemma, count in counter.most_common(limit):
+        cumulative += count
+        cumfreq_dict[lemma] = cumulative / total
+
+    return cumfreq_dict

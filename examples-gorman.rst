@@ -47,3 +47,20 @@ The 97.87% point is reached at 10000 lemmas (2 occurrences at that point)
 The 98.50% point is reached at 12000 lemmas (1 occurrences at that point)
 The 99.11% point is reached at 15000 lemmas (1 occurrences at that point)
 489437 tokens
+
+>>> from calc import cumulative_frequency
+>>> for lemma, freq in cumulative_frequency(all_gorman, limit=10).items():
+...    print(lemma, round(100 * freq, 2))
+ὁ 13.39
+καί 18.68
+δέ 21.87
+εἰμί 23.81
+αὐτός 25.42
+οὗτος 26.98
+μέν 28.34
+οὐ 29.48
+τε 30.47
+εἰς 31.46
+>>> lysias_cumfreq = cumulative_frequency(lysias)
+>>> lysias_cumfreq['μέν']
+0.2759031773181983
