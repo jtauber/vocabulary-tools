@@ -82,3 +82,5 @@ What are the top ten lemmas in On the Murder of Eratosthenes that aren't in Plat
 Ἐρατοσθένης 6
 γνώμη 5
 ἀγρός 5
+
+The fact καὶ appears here suggests an error in the lemmatisation.
