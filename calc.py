@@ -90,3 +90,46 @@ def rank_with_ties(counter):
         item_rank[item] = inc2
 
     return item_rank
+
+
+def print_tier_summary(counter, perc_tiers, count_tiers):
+    """
+    prints a list of how many lemmas in each of the given percentages in
+    `perc_tiers` are reached and at what percentage each lemma count in
+    `count_tiers` is reached.
+
+    For example:
+    ```
+    The 50% point is reached at 55 lemmas (834 occurrences at that point)
+    ---
+    The 73.52% point is reached at 500 lemmas (104 occurrences at that point)
+    ```
+    """
+    TOTAL = sum(counter.values())
+    cumulative = 0
+    tiers = perc_tiers[:]
+    i = 0
+    for lemma, count in counter.most_common():
+        if not tiers:
+            break
+        i += 1
+        cumulative += count
+        if 100 * cumulative / TOTAL >= tiers[0]:
+            print(f"The {tiers[0]}% point is reached at {i} lemmas ({count} occurrences at that point)")
+            tiers = tiers[1:]
+
+    print("---")
+
+    TOTAL = sum(counter.values())
+    cumulative = 0
+    tiers = count_tiers[:]
+    i = 0
+    for lemma, count in counter.most_common():
+        if not tiers:
+            break
+        i += 1
+        cumulative += count
+        if i >= tiers[0]:
+            print(f"The {round(100 * cumulative / TOTAL, 2):.02f}% point is reached at {i} lemmas ({count} occurrences at that point)")
+            tiers = tiers[1:]
+    print(f"{TOTAL} tokens")
