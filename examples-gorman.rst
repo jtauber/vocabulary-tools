@@ -64,3 +64,21 @@ The 99.11% point is reached at 15000 lemmas (1 occurrences at that point)
 >>> lysias_cumfreq = cumulative_frequency(lysias)
 >>> lysias_cumfreq['μέν']
 0.2759031773181983
+
+What are the top ten lemmas in On the Murder of Eratosthenes that aren't in Plato's Apology?
+============================================================================================
+
+>>> plato_apology = get_counts("0059:002")
+>>> missing = eratosthenes.keys() - plato_apology.keys()
+>>> for k, v in [i for i in eratosthenes.most_common() if i[0] in missing][:10]:
+...     print(k, v)
+οὔτε 11
+οἰκία 10
+καὶ 8
+θύρα 7
+ζημία 6
+μοιχός 6
+θεράπαινα 6
+Ἐρατοσθένης 6
+γνώμη 5
+ἀγρός 5
