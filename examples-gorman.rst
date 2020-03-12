@@ -13,57 +13,57 @@ Examples from Vanessa Gorman's Treebanks
 >>> eratosthenes = get_counts("0540:001")
 
 >>> tokens_for_coverage(all_gorman, 0.5)
-Counter({'ὁ': 65557, 'καί': 25878, 'δέ': 15623, 'εἰμί': 9486, 'αὐτός': 7869, 'οὗτος': 7644, 'μέν': 6632, 'οὐ': 5582, 'τε': 4862, 'εἰς': 4829, 'ὅς': 4205, 'ἐν': 4177, 'τις': 3879, 'γάρ': 3777, 'πρός': 3262, 'γίγνομαι': 3050, 'ἐγώ': 3002, 'ἐπί': 2976, 'ὡς': 2912, 'ἐκ': 2748, 'περί': 2721, 'κατά': 2596, 'ἔχω': 2420, 'πᾶς': 2273, 'πολύς': 2251, 'ὁ': 2247, 'μή': 2242, 'ποιέω': 2122, 'πόλις': 2092, 'δέ': 2069, 'σύ': 2046, 'ἄλλος': 1935, 'ἀλλά': 1795, 'ἄν1': 1789, 'διά': 1778, 'εἰ': 1654, 'ἑαυτοῦ': 1578, 'λέγω3': 1546, 'φημί': 1531, 'ἤ1': 1403, 'μετά': 1370, 'ὑπό': 1357, 'ἀνήρ': 1295, 'οὖν': 1289, 'οὐδείς': 1285, 'ὅτι2': 1234, 'παρά': 1139, 'μέγας': 1114, 'ἀπό': 1031, 'δή': 1030, 'ἐκεῖνος': 997, 'οὕτως': 926, 'δοκέω': 925, 'λαμβάνω': 921, 'ἐπεί': 834})
+Counter({'ὁ': 68784, 'καί': 26518, 'δέ': 17990, 'εἰμί': 9976, 'αὐτός': 8093, 'οὗτος': 7951, 'μέν': 6715, 'οὐ': 5751, 'τε': 4978, 'εἰς': 4867, 'ὅς': 4670, 'ἐν': 4281, 'τις': 3935, 'γάρ': 3825, 'ἐπί': 3329, 'πρός': 3291, 'ἐγώ': 3139, 'γίγνομαι': 3082, 'ὡς': 3014, 'κατά': 2941, 'ἐκ': 2778, 'περί': 2755, 'ἔχω': 2493, 'πᾶς': 2316, 'μή': 2306, 'πολύς': 2268, 'ἀλλά': 2229, 'σύ': 2158, 'ποιέω': 2156, 'πόλις': 2118, 'ἄλλος': 2006, 'διά': 1981, 'ἄν1': 1800, 'εἰ': 1696, 'ἑαυτοῦ': 1626, 'λέγω3': 1599, 'μετά': 1592, 'φημί': 1586, 'παρά': 1576, 'ὑπό': 1563, 'ἤ1': 1423, 'ἀνήρ': 1335, 'οὖν': 1306, 'οὐδείς': 1298, 'ὅτι2': 1240, 'μέγας': 1148, 'ἐκεῖνος': 1122, 'ἀπό': 1120, 'δή': 1034})
 
 >>> tokens_for_coverage(lysias, 0.5)
-Counter({'ὁ': 2080, 'καί': 823, 'δέ': 495, 'εἰμί': 495, 'οὗτος': 403, 'αὐτός': 396, 'οὐ': 329, 'μέν': 302, 'σύ': 274, 'ἐγώ': 246, 'ὅς': 229, 'γάρ': 194, 'τε': 169, 'ἄν1': 162, 'ὅτι2': 159, 'εἰς': 154, 'τις': 154, 'γίγνομαι': 150, 'ὡς': 149, 'ἀνήρ': 143, 'ἐκεῖνος': 140, 'πολύς': 139, 'ἐν': 133, 'πόλις': 131, 'ἤ1': 128, 'ποιέω': 118, 'οὐδείς': 116, 'εἰ': 115, 'ὦ': 110, 'περί': 110, 'ἐκ': 101, 'δέ': 98, 'μή': 96, 'οὖν': 96, 'ἀλλά': 91, 'ἔχω': 86, 'ἐπί': 81, 'ἑαυτοῦ': 81, 'πᾶς': 80, 'ἄλλος': 80, 'δικαστής': 79})
+Counter({'ὁ': 2105, 'καί': 835, 'δέ': 596, 'εἰμί': 496, 'οὗτος': 411, 'αὐτός': 399, 'οὐ': 329, 'μέν': 302, 'σύ': 274, 'ἐγώ': 248, 'ὅς': 232, 'γάρ': 194, 'τε': 170, 'ἄν1': 162, 'ὅτι2': 159, 'εἰς': 154, 'τις': 154, 'γίγνομαι': 150, 'ὡς': 150, 'ἐκεῖνος': 147, 'ἀνήρ': 144, 'πολύς': 139, 'ἀλλά': 133, 'ἐν': 133, 'πόλις': 131, 'ἤ1': 128, 'ποιέω': 120, 'εἰ': 116, 'οὐδείς': 116, 'περί': 110, 'ὦ': 110, 'ἐκ': 101, 'ἐπί': 97, 'μή': 97, 'οὖν': 96, 'ὑπό': 96, 'ἔχω': 86, 'ἄλλος': 83})
 
 >>> eratosthenes = get_counts("0540:001")
 >>> tokens_for_coverage(eratosthenes, 0.5)
-Counter({'ὁ': 282, 'καί': 93, 'ἐγώ': 76, 'εἰμί': 55, 'οὗτος': 52, 'δέ': 48, 'αὐτός': 45, 'μέν': 34, 'γάρ': 31, 'σύ': 27, 'ἀνήρ': 27, 'ὦ': 25, 'ὅς': 25, 'ἐκεῖνος': 24, 'εἰς': 23, 'οὐ': 21, 'ἄν1': 21, 'γυνή': 20, 'ὡς': 19, 'ἤ1': 18, 'πᾶς': 18, 'τις': 18, 'ὅτι2': 18, 'νόμος': 18, 'γίγνομαι': 18, 'δέ': 17, 'περί': 17, 'οὕτως': 17, 'τοιοῦτος': 16, 'ἐκ': 15, 'οὐδείς': 15, 'ἐν': 14, 'ποιέω': 14, 'εἰ': 13, 'τε': 13, 'ἔχω': 13, 'κελεύω': 13, 'ἡγέομαι': 13})
+Counter({'ὁ': 283, 'καί': 99, 'ἐγώ': 77, 'δέ': 65, 'εἰμί': 55, 'οὗτος': 53, 'αὐτός': 45, 'μέν': 34, 'γάρ': 31, 'ἀνήρ': 27, 'σύ': 27, 'ἐκεῖνος': 27, 'ὦ': 25, 'ὅς': 25, 'εἰς': 23, 'ἄν1': 21, 'οὐ': 21, 'γυνή': 20, 'ὡς': 19, 'γίγνομαι': 18, 'ὅτι2': 18, 'πᾶς': 18, 'ἤ1': 18, 'νόμος': 18, 'τις': 18, 'περί': 17, 'οὕτως': 17, 'τοιοῦτος': 16, 'ἐπί': 15, 'οὐδείς': 15, 'ἐκ': 15, 'ποιέω': 14, 'ἀλλά': 14, 'ἐν': 14})
 
 >>> print_tier_summary(
 ...    all_gorman,
 ...    [50, 80, 90, 95, 98],
 ...    [500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 12000, 15000, 20000]
 ... )
-The 50% point is reached at 55 lemmas (834 occurrences at that point)
-The 80% point is reached at 916 lemmas (58 occurrences at that point)
-The 90% point is reached at 2582 lemmas (16 occurrences at that point)
-The 95% point is reached at 5323 lemmas (5 occurrences at that point)
-The 98% point is reached at 10318 lemmas (2 occurrences at that point)
+The 50% point is reached at 49 lemmas (1034 occurrences at that point)
+The 80% point is reached at 845 lemmas (62 occurrences at that point)
+The 90% point is reached at 2397 lemmas (17 occurrences at that point)
+The 95% point is reached at 4906 lemmas (6 occurrences at that point)
+The 98% point is reached at 9545 lemmas (2 occurrences at that point)
 ---
-The 73.52% point is reached at 500 lemmas (104 occurrences at that point)
-The 80.96% point is reached at 1000 lemmas (52 occurrences at that point)
-The 87.82% point is reached at 2000 lemmas (22 occurrences at that point)
-The 91.20% point is reached at 3000 lemmas (13 occurrences at that point)
-The 93.26% point is reached at 4000 lemmas (8 occurrences at that point)
-The 94.65% point is reached at 5000 lemmas (6 occurrences at that point)
-The 95.64% point is reached at 6000 lemmas (4 occurrences at that point)
-The 96.39% point is reached at 7000 lemmas (3 occurrences at that point)
-The 97.01% point is reached at 8000 lemmas (3 occurrences at that point)
-The 97.46% point is reached at 9000 lemmas (2 occurrences at that point)
-The 97.87% point is reached at 10000 lemmas (2 occurrences at that point)
-The 98.50% point is reached at 12000 lemmas (1 occurrences at that point)
-The 99.11% point is reached at 15000 lemmas (1 occurrences at that point)
-489437 tokens
+The 74.46% point is reached at 500 lemmas (103 occurrences at that point)
+The 81.78% point is reached at 1000 lemmas (52 occurrences at that point)
+The 88.48% point is reached at 2000 lemmas (22 occurrences at that point)
+The 91.77% point is reached at 3000 lemmas (12 occurrences at that point)
+The 93.77% point is reached at 4000 lemmas (8 occurrences at that point)
+The 95.11% point is reached at 5000 lemmas (6 occurrences at that point)
+The 96.05% point is reached at 6000 lemmas (4 occurrences at that point)
+The 96.76% point is reached at 7000 lemmas (3 occurrences at that point)
+The 97.37% point is reached at 8000 lemmas (3 occurrences at that point)
+The 97.78% point is reached at 9000 lemmas (2 occurrences at that point)
+The 98.18% point is reached at 10000 lemmas (2 occurrences at that point)
+The 98.73% point is reached at 12000 lemmas (1 occurrences at that point)
+The 99.34% point is reached at 15000 lemmas (1 occurrences at that point)
+495495 tokens
 
 >>> from calc import cumulative_frequency
 >>> for lemma, freq in cumulative_frequency(all_gorman, limit=10).items():
 ...    print(lemma, round(100 * freq, 2))
-ὁ 13.39
-καί 18.68
-δέ 21.87
-εἰμί 23.81
-αὐτός 25.42
-οὗτος 26.98
-μέν 28.34
-οὐ 29.48
-τε 30.47
-εἰς 31.46
+ὁ 13.88
+καί 19.23
+δέ 22.86
+εἰμί 24.88
+αὐτός 26.51
+οὗτος 28.12
+μέν 29.47
+οὐ 30.63
+τε 31.64
+εἰς 32.62
 >>> lysias_cumfreq = cumulative_frequency(lysias)
 >>> lysias_cumfreq['μέν']
-0.2759031773181983
+0.2832375925063396
 
 What are the top ten lemmas in On the Murder of Eratosthenes that aren't in Plato's Apology?
 ============================================================================================
@@ -77,9 +77,9 @@ What are the top ten lemmas in On the Murder of Eratosthenes that aren't in Plat
 καὶ 8
 θύρα 7
 ζημία 6
-μοιχός 6
-θεράπαινα 6
 Ἐρατοσθένης 6
+θεράπαινα 6
+μοιχός 6
 γνώμη 5
 ἀγρός 5
 
