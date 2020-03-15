@@ -151,3 +151,19 @@ def cumulative_frequency(counter, limit=None):
         cumfreq_dict[lemma] = cumulative / total
 
     return cumfreq_dict
+
+
+def log_rank_differences(counter1, counter2):
+    """
+    given two Counters, calculate the log2 rank of each lemma and return a list
+    of lemmas sorted by difference.
+    """
+    s1 = set(counter1)
+    s2 = set(counter2)
+    r1 = rank_with_ties(counter1)
+    r2 = rank_with_ties(counter2)
+
+    return {
+        lemma: abs(math.log2(r1[lemma]) - math.log2(r2[lemma]))
+        for lemma in s1 & s2
+    }
