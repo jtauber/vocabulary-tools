@@ -59,7 +59,7 @@ What is left from the Core 80% GNT Vocabulary if you've read the Johannine Epist
 
 
 How many words appear at least 10 times in the Johannine Epistles and Gospel?
-============================================================================
+=============================================================================
 
 >>> johannine_at_least_10 = Counter({token:count for token, count in johannine_lemmas.items() if count >= 10})
 >>> len(johannine_at_least_10)
