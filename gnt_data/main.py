@@ -4,7 +4,7 @@ import os.path
 
 
 ChunkType = enum.Enum("ChunkType", "book chapter verse sentence paragraph pericope")
-TokenType = enum.Enum("TokenType", "text form lemma")
+TokenType = enum.Enum("TokenType", "text form lemma pos tag2")
 
 chunk_data_filename = {
     ChunkType.book: "books.txt",
@@ -42,12 +42,11 @@ def load_tokens():
             token_id, text, form, pos, tag1, tag2, lemma = line.strip().split()
 
             # assume token_ids are sequential
-            # token data is stored separately like this because all the
-            # initial applications involve just wanting one particular type of
-            # token at a time
             token_data[TokenType.text].append(text)
             token_data[TokenType.form].append(form)
             token_data[TokenType.lemma].append(lemma)
+            token_data[TokenType.pos].append(pos)
+            token_data[TokenType.tag2].append(tag2)
 
 
 load_chunk_data()
@@ -58,6 +57,9 @@ def get_tokens(token_type, chunk_type=None, chunk_id=None):
     """
     Return a list of tokens of the given `token_type` from the chunk of type
     `chunk_type` with identifier `chunk_id`.
+
+    If `token_type` is a tuple of types, the list will be of tuples of those
+    types.
 
     If `chunk_type` and `chunk_id` are omitted (they must both be if one is)
     then all tokens are returned.
@@ -70,10 +72,17 @@ def get_tokens(token_type, chunk_type=None, chunk_id=None):
         start, end = chunk_data[(chunk_type, chunk_id)]
 
         # assume token_ids are sequential starting with 1
-        return token_data[token_type][start - 1:end]
+
+        if type(token_type) == tuple:
+            return list(zip(*[token_data[t][start - 1:end] for t in token_type]))
+        else:
+            return token_data[token_type][start - 1:end]
 
     elif chunk_type is None and chunk_id is None:
-        return token_data[token_type]
+        if type(token_type) == tuple:
+            return list(zip(*[token_data[t] for t in token_type]))
+        else:
+            return token_data[token_type]
 
     else:
         raise ValueError(
@@ -103,3 +112,4 @@ if __name__ == "__main__":
     for token in get_tokens(TokenType.text, ChunkType.verse, "640316"):
         print(token)
     print(get_tokens_by_chunk(TokenType.lemma, ChunkType.verse)["640316"])
+    print(get_tokens_by_chunk((TokenType.lemma, TokenType.pos), ChunkType.verse)["640316"])
