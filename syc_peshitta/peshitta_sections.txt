@@ -1,0 +1,590 @@
+01§01 520100100 520101799 The Genealogy of Christ
+01§02 520101800 520102599 The Annunciation to Joseph and the Birth of Jesus
+01§03 520200100 520201299 The Wise Men from the East
+01§04 520201300 520202399 The Flight into Egypt and the Return to Nazareth
+01§05 520300100 520301299 The Ministry of John the Baptist
+01§06 520301300 520301799 The Baptism of Jesus
+01§07 520400100 520401199 The Temptation in the Wilderness
+01§08 520401200 520402599 The Beginning of the Galilean Ministry and the Call of the Four
+01§09 520500100 520501299 The Beatitudes
+01§10 520501300 520501699 The Chief Functions of the Disciples in the World
+01§11 520501700 520503799 Christ Confirms and Expounds the Law of Moses
+01§12 520503800 520504899 The Law of Love toward the Enemy
+01§13 520600100 520601899 On Giving of Alms, Praying, and Fasting
+01§14 520601900 520603499 Warning against Covetousness and Care
+01§15 520700100 520701299 Warning against Unauthorized Judging and Admonition to Persevere in Prayer
+01§16 520701300 520702999 The Conclusion of the Sermon
+01§17 520800100 520800499 The Healing of the Leper
+01§18 520800500 520801399 The Centurion of Capernaum
+01§19 520801400 520801799 Various Miracles of Healing
+01§20 520801800 520802299 The Discipleship of Christ
+01§21 520802300 520802799 The Storm on the Lake
+01§22 520802800 520803499 Jesus and the Gadarenes
+01§23 520900100 520900899 The Healing of the Palsied Man
+01§24 520900900 520901799 The Call of Matthew and His Feast
+01§25 520901800 520902699 The Daughter of Jairus
+01§26 520902700 520903499 Further Miracles of That Day
+01§27 520903500 520903899 Continuation of Christ’s Teaching and Healing Ministry
+01§28 521000100 521001599 The Commission to the Twelve
+01§29 521001600 521002599 The Perils of Apostleship
+01§30 521002600 521003699 Fearless Confession of Christ Demanded
+01§31 521003700 521004299 Perfect Consecration to Christ
+01§32 521100100 521100699 John the Baptist’s Disciples Come to Jesus
+01§33 521100700 521101999 Christ’s Testimony Concerning John
+01§34 521102000 521102499 The Woe upon the Galilean Cities
+01§35 521102500 521103099 The Gospel Call
+01§36 521200100 521201399 The Lord of the Sabbath
+01§37 521201400 521203099 The Enmity of the Pharisees and Christ’s Answer
+01§38 521203100 521203799 The Sin against the Holy Spirit
+01§39 521203800 521204599 The Sign from Heaven and a Warning
+01§40 521204600 521205099 Christ’s Relatives
+01§41 521300100 521302399 The Parable of the Sower
+01§42 521302400 521305299 The Parable of the Tares, and Others
+01§43 521305300 521305899 A Visit to Nazareth
+01§44 521400100 521401299 The Death of John the Baptist
+01§45 521401300 521402199 The Feeding of the Five Thousand
+01§46 521402200 521403699 Christ Walks on the Sea
+01§47 521500100 521502099 A Lesson Concerning Defilement
+01§48 521502100 521502899 The Syrophoenician Woman
+01§49 521502900 521503999 Christ Teaches and Feeds Four Thousand
+01§50 521600100 521600499 The Demand for a Sign
+01§51 521600500 521601299 The Leaven of the Pharisees
+01§52 521601300 521602099 “Christ the Son of the Living God”
+01§53 521602100 521602899 Christ’s First Prophecy Concerning His Passion
+01§54 521700100 521701399 The Transfiguration of Christ
+01§55 521701400 521702099 The Healing of a Boy with a Demon
+01§56 521702200 521702799 Christ Foretells His Passion and Pays the Temple-Tax
+01§57 521800100 521801499 The Greatest in the Kingdom of Heaven
+01§58 521801500 521802299 How to Deal with an Erring Brother
+01§59 521802300 521803599 Parable of the Unmerciful Servant
+01§60 521900100 521901299 On Marriage and Divorce
+01§61 521901300 521901599 Christ Blessing Little Children
+01§62 521901600 521902699 The Dangers of Riches
+01§63 521902700 521903099 The Reward of the Apostles
+01§64 522000100 522001699 Parable of the Laborers in the Vineyard
+01§65 522001700 522001999 Christ Again Foretells His Passion
+01§66 522002000 522002899 The Requests of the Sons of Zebedee
+01§67 522002900 522003499 Healing of Two Blind Men
+01§68 522100100 522101199 Christ’s Entry into Jerusalem
+01§69 522101200 522101699 Christ Visits the Temple
+01§70 522101700 522102299 The Cursing of the Fig-Tree
+01§71 522102300 522102799 The Authority of Christ
+01§72 522102800 522103299 The Parable of the Two Sons
+01§73 522103300 522104699 The Parable of the Wicked Husbandmen
+01§74 522200100 522201499 The Parable of the Marriage Feast
+01§75 522201500 522202299 The Question Concerning Tribute
+01§76 522202300 522203399 The Question of the Sadducees
+01§77 522203400 522204699 The Silencing of the Pharisees
+01§78 522300100 522301299 The Inordinate Ambition of the Pharisees
+01§79 522301300 522303399 The Woes upon the Hypocrisy of the Pharisees
+01§80 522303400 522303999 The Peroration and the Lament over Jerusalem
+01§81 522400100 522404199 The Judgment of God upon Jerusalem and upon the World
+01§82 522404200 522405199 The Need of Watchfulness
+01§83 522500100 522501399 The Parable of the Ten Virgins
+01§84 522501400 522503099 The Parable of the Talents
+01§85 522503100 522504699 The Last Judgment
+01§86 522600100 522601999 Events Preceding the Last Passover
+01§87 522602000 522602999 The Passover Meal and the Institution of the Lord’s Supper
+01§88 522603000 522604699 Events at Gethsemane
+01§89 522604700 522605699 The Betrayal and Arrest
+01§90 522605700 522607599 The Trial before Caiaphas and the Denial of Peter
+01§91 522700100 522701099 The End of Judas
+01§92 522701100 522703099 The Trial before Pilate
+01§93 522703100 522705699 The Crucifixion and Death of Christ
+01§94 522705700 522706699 The Burial of Christ
+01§95 522800100 522801599 The Resurrection of Christ
+01§96 522801600 522802099 The Great Missionary Command
+02§01 530100100 530100899 The Ministry of John the Baptist
+02§02 530100900 530102099 The Baptism of Christ and the Beginning of His Ministry
+02§03 530102100 530103899 Preaching and Healing in Capernaum
+02§04 530103900 530104599 The Healing of a Leper
+02§05 530200100 530201299 Healing the Palsied Man
+02§06 530201300 530202299 The Calling of Levi and the Dinner at His House
+02§07 530202300 530202899 The Lord of the Sabbath
+02§08 530300100 530300699 Healing the Withered Hand
+02§09 530300700 530302199 Miracles by the Seaside
+02§10 530302200 530303599 Discourse on the Casting Out of Demons
+02§11 530400100 530403499 Teaching by Means of Parables
+02§12 530403500 530404199 Christ Stilling the Tempest
+02§13 530500100 530502099 The Healing of a Demon-Possessed Man
+02§14 530502100 530504399 Raising of the Daughter of Jairus
+02§15 530600100 530600599 Jesus at Nazareth
+02§16 530600600 530601399 The Mission of the Twelve
+02§17 530601400 530603299 Death of John the Baptist
+02§18 530603300 530604499 The Feeding of the Five Thousand
+02§19 530604500 530605699 Christ Walking on the Sea and His Return to Galilee
+02§20 530700100 530701399 Concerning Ceremonial Washings
+02§21 530701400 530702399 Christ’s Denunciation of the Pharisees
+02§22 530702400 530703099 The Syrophoenician Woman
+02§23 530703100 530703799 Healing of the Deaf Man
+02§24 530800100 530800999 The Feeding of the Four Thousand
+02§25 530801000 530802199 The Leaven of the Pharisees
+02§26 530802200 530802699 The Blind Man of Bethsaida
+02§27 530802700 530803899 Jesus the Christ and His Service
+02§28 530900100 530901399 The Transfiguration of Jesus
+02§29 530901400 530902999 Casting Out an Unclean Spirit
+02§30 530903000 530905099 The Last Discourses of Christ in Galilee
+02§31 531000100 531001299 A Question concerning Divorce
+02§32 531001300 531001699 Jesus Blesses Little Children
+02§33 531001700 531003199 The Rich Young Man
+02§34 531003200 531004599 Priority in Christ’s Kingdom
+02§35 531004600 531005299 The Healing of Bartimaeus
+02§36 531100100 531101199 Christ’s Entry into Jerusalem
+02§37 531101200 531102599 The Miracle of the Fig-Tree
+02§38 531102700 531103399 The Question concerning Christ’s Authority
+02§39 531200100 531201299 The Parable of the Vineyard
+02§40 531201300 531203499 Various Questions Proposed to Jesus
+02§41 531203500 531204499 David’s Son and Lord
+02§42 531300100 531303799 Christ Foretells the Destruction of Jerusalem and the End of the World
+02§43 531400100 531400999 The Anointing of Jesus
+02§44 531401000 531402599 The Preparation for, and the Celebration of, the Passover
+02§45 531402600 531404299 The Passion in Gethsemane
+02§46 531404300 531405299 The Capture of Jesus
+02§47 531405300 531406599 The Trial before the High Priest
+02§48 531406600 531407299 The Denial of Peter
+02§49 531500100 531501499 The Trial before Pilate
+02§50 531501500 531503799 Condemnation, Crucifixion, and Death of Jesus
+02§51 531503800 531504799 The Burial of Jesus
+02§52 531600100 531600899 The Resurrection of Jesus
+02§53 531600900 531602099 The Appearances and the Ascension of Jesus
+03§01 540100100 540100499 The Preface to the Gospel
+03§02 540100500 540102599 The Announcement of John the Baptist’s Birth
+03§03 540102600 540103899 The Annunciation to Mary
+03§04 540103900 540105699 Mary’s Visit to Elizabeth
+03§05 540105700 540108099 The Birth of John the Baptist
+03§06 540200100 540202099 The Birth of Jesus and the Adoration of the Shepherds
+03§07 540202100 540204099 The Circumcision and Presentation of Christ
+03§08 540204100 540205299 The Christ-Child in the Temple
+03§09 540300100 540302099 The Ministry of John the Baptist
+03§10 540302100 540303899 The Baptism and Genealogy of Christ
+03§11 540400100 540401399 The Temptation of Christ
+03§12 540401400 540403299 The Beginning of Christ’s Ministry and His Teaching in Nazareth
+03§13 540403300 540404499 Healing of a Demoniac and Other Miracles
+03§14 540500100 540501199 The Miraculous Draught of Fishes and the Call of the First Disciples
+03§15 540501200 540502699 The Healing of a Leper and of a Paralytic
+03§16 540502700 540503999 The Call of Levi and the Discourse Concerning Christ’s Ministry
+03§17 540600100 540601299 Disputes Concerning Sabbath Observance
+03§18 540601300 540601699 The Twelve Apostles
+03§19 540601700 540604999 Miracles of Healing and Preaching
+03§20 540700100 540701099 The Centurion of Capernaum
+03§21 540701100 540701799 Raising of the Widow’s Son
+03§22 540701800 540703599 The Embassy of John the Baptist
+03§23 540703600 540705099 The First Anointing of Jesus
+03§24 540800100 540802199 Teaching in Parables
+03§25 540802200 540802599 The Storm on the Sea
+03§26 540802600 540803999 In the Country of the Gadarenes
+03§27 540804000 540805699 The Woman with an Issue and the Daughter of Jairus
+03§28 540900100 540900999 The Mission of the Twelve
+03§29 540901000 540901799 The Feeding of the Five Thousand
+03§30 540901800 540902799 Peter’s Confession and Christ’s Answer
+03§31 540902800 540903699 The Transfiguration
+03§32 540903700 540904599 The Healing of the Epileptic Boy
+03§33 540904600 540905699 Lessons in Humility
+03§34 540905700 540906299 True Discipleship of Christ
+03§35 541000100 541002299 The Mission of the Seventy
+03§36 541002300 541003799 The Good Samaritan
+03§37 541003800 541004299 Mary and Martha
+03§38 541100100 541101399 A Lesson in Prayer
+03§39 541101400 541102899 Christ Casts Out a Demon and Rebukes the Pharisees
+03§40 541102900 541103699 The Sign of Jonah
+03§41 541103700 541105499 Woes upon the Pharisees and Lawyers
+03§42 541200100 541202199 Warning against Hypocrisy and Covetousness
+03§43 541202200 541205999 Of Trust in God and Preparation for Christ’s Coming
+03§44 541300100 541300999 Last Admonitions to Repentance
+03§45 541301000 541301799 The Crippled Woman Healed
+03§46 541301800 541303599 Parables and Teachings
+03§47 541400100 541401499 Christ the Guest of a Pharisee
+03§48 541401500 541402499 The Great Supper
+03§49 541402500 541403599 The Obligations of Christ’s Discipleship
+03§50 541500100 541501099 Parables of the Love of Christ to the Lost
+03§51 541501100 541503299 The Prodigal Son
+03§52 541600100 541601899 The Parable of the Unjust Steward and Its Lessons
+03§53 541601900 541603199 The Rich Man and Lazarus, the Beggar
+03§54 541700100 541701099 A Lesson on Offenses and Forgiveness
+03§55 541701100 541701999 The Ten Lepers
+03§56 541702000 541703799 Concerning the Kingdom of God and the Coming of Christ
+03§57 541800100 541800899 The Unjust Judge
+03§58 541800900 541801499 The Pharisee and the Publican
+03§59 541801500 541801799 Christ Blesses Little Children
+03§60 541801800 541803099 Denying All for Christ’s Sake
+03§61 541803100 541803499 The Lord’s Third Prediction of His Passion
+03§62 541803500 541804399 The Blind Man of Jericho
+03§63 541900100 541901099 Zacchaeus the Publican
+03§64 541901100 541902799 The Parable of the Talents
+03§65 541902800 541904899 Christ’s Entry into Jerusalem
+03§66 542000100 542001899 The Authority of Jesus
+03§67 542001900 542004799 The Pharisees and Sadducees Confounded
+03§68 542100100 542100499 The Widow’s Gift
+03§69 542100500 542103899 The Destruction of Jerusalem and the End of the World
+03§70 542200100 542202399 The Preparation for, and the Celebration of, the Passover
+03§71 542202400 542203099 A Lesson on Humility
+03§72 542203100 542205399 The Walk to Gethsemane and the Agony
+03§73 542205400 542207199 Christ before Caiaphas and The Denial of Peter
+03§74 542300100 542302599 The Trial before Pilate
+03§75 542302600 542305699 The Crucifixion, Death, and Burial of Christ
+03§76 542400100 542401299 The Resurrection of Christ
+03§77 542401300 542403599 The Emmaus Disciples
+03§78 542403600 542405399 The Last Appearances of Christ
+04§01 550100100 550100999 The Word Became Flesh
+04§02 550101000 550101899 Jesus at the Feast of Tabernacles
+04§03 550101900 550103499 The Testimony of John the Baptist
+04§04 550103500 550105199 The First Disciples of Jesus
+04§05 550200100 550201199 The Marriage at Cana
+04§06 550201200 550202599 The Purging of the Temple and Its Results
+04§07 550300100 550302199 The Visit of Nicodemus
+04§08 550302200 550303699 John’s Second Testimony of Christ
+04§09 550400100 550404299 Christ and the Woman of Samaria
+04§10 550404300 550405499 The Healing of the Nobleman’s Son
+04§11 550500100 550501699 The Sick Man of Bethesda
+04§12 550501700 550503099 The Relation between the Father and the Son
+04§13 550503100 550504799 The Witness of John, of the Father, and of Scriptures
+04§14 550600100 550601499 The Feeding of the Five Thousand
+04§15 550601500 550602199 Christ Walks on the Sea
+04§16 550602200 550605999 Christ the Bread of Life
+04§17 550606000 550607199 The Offense of Many Disciples
+04§18 550700100 550705299 The Unbelief of Christ’s Relatives
+04§20 550801200 550803099 Jesus the Light of the World
+04§21 550803100 550805999 The True Liberty of the Gospel
+04§22 550900100 550904199 Healing of the Man That was Born Blind
+04§23 551000100 551002199 Jesus the Good Shepherd
+04§24 551002200 551004299 Christ’s Sermon at the Feast of Dedication
+04§25 551100100 551104699 The Raising of Lazarus
+04§26 551104700 551105799 The Council concerning Christ’s Removal
+04§27 551200100 551201199 The Anointing of Jesus
+04§28 551201200 551201999 Christ’s Entry into Jerusalem
+04§29 551202000 551203399 Some Greeks Seek Jesus
+04§30 551203400 551204199 Walking in the Light
+04§31 551204200 551205099 Of Faith in Christ and God
+04§32 551300100 551302099 Jesus Washing the Disciples’ Feet
+04§33 551302100 551303099 The Traitor at the Table
+04§34 551303100 551303899 Concerning Christ’s Glorification
+04§35 551400100 551401499 Of Christ’s Going to the Father
+04§36 551401500 551402399 Of Love and Life
+04§37 551402400 551403199 Of the Work of the Spirit
+04§38 551500100 551501099 Christ the True Vine
+04§39 551501100 551502799 The New Status of Christ’s Disciples
+04§40 551600100 551601599 Comfort against the World’s Hatred
+04§41 551601600 551603399 The Comfort of Christ’s Second Advent
+04§42 551700100 551702699 Christ’s Great Sacerdotal Prayer
+04§43 551800100 551801499 The Arrest of Jesus
+04§44 551801500 551802799 Jesus Arraigned, and the Denial of Peter
+04§45 551802800 551804099 The Trial before Pilate
+04§46 551900100 551901599 The Condemnation of Jesus
+04§47 551901600 551903099 The Crucifixion
+04§48 551903100 551904299 The Burial of Jesus
+04§49 552000100 552001899 Easter Morning
+04§50 552001900 552003199 Two Appearances to the Assembled Disciples
+04§51 552100100 552101499 The Appearance of Christ at the Sea of Tiberias
+04§52 552101500 552102599 The Test of Peter’s Love
+05§01 560100100 560101199 The Ascension of Jesus
+05§02 560101200 560102699 The Election of Matthias
+05§03 560200100 560201399 The Pentecost Miracle
+05§04 560201400 560204799 The Sermon of Peter and Its Effect
+05§05 560300100 560301199 The Healing of the Lame Man
+05§06 560301200 560302699 The Address of Peter in the Temple
+05§07 560400100 560402299 Peter and John before the Council
+05§08 560402300 560403799 The Prayer and the Further Establishment of the Congregation
+05§09 560500100 560501199 Ananias and Sapphira
+05§10 560501200 560501699 The Prosperity of the Church
+05§11 560501700 560504299 The Imprisonment, Deliverance, and Defense of the Apostles
+05§12 560600100 560600899 The Choosing of the First Deacons
+05§13 560600900 560601599 The Testimony of Stephen
+05§14 560700100 560706099 The Defense of Stephen and His Death
+05§15 560800100 560802599 The Gospel Planted in Samaria
+05§16 560802600 560804099 The Ethiopian Eunuch
+05§17 560900100 560903199 The Conversion and Early Labors of Paul
+05§18 560903200 560904399 Two Miracles Performed by Peter
+05§19 561000100 561004899 Cornelius the Centurion
+05§20 561100100 561101899 Jewish Brethren Rejoice that Gentiles Granted Repentance
+05§21 561101900 561103099 The Establishment of the Congregation at Antioch
+05§22 561200100 561202599 Herod Persecutes the Church at Jerusalem and is Punished by God
+05§23 561300100 561301299 Paul and Barnabas on the Island of Cyprus
+05§24 561301300 561305299 At Antioch, in Pisidia
+05§25 561400100 561401899 Paul and Barnabas at Iconium and Lystra
+05§26 561401900 561402899 The Return Journey to Syria
+05§27 561500100 561503599 The Convention at Jerusalem
+05§28 561503600 561504199 The Beginning of Paul’s Second Missionary Journey
+05§29 561600100 561601099 Paul and Silas in Asia Minor
+05§30 561601100 561604099 Paul and His Companions at Philippi
+05§31 561700100 561701499 Paul and Silas in Thessalonica and Berea
+05§32 561701500 561703499 Paul in Athens
+05§33 561800100 561801799 Paul at Corinth
+05§34 561801800 561802899 The Return Trip to Antioch and the Beginning of the Third Journey
+05§35 561900100 561902099 Paul’s Work at Ephesus
+05§36 561902100 561904099 The Tumult of Demetrius
+05§37 562000100 562001699 The Journey to Macedonia and Back to Miletus
+05§38 562001700 562003899 Paul and the Elders of Ephesus
+05§39 562100100 562101699 The Trip to Jerusalem
+05§40 562101700 562103999 The Uprising against Paul
+05§41 562104000 562202199 Paul Address in Hebrew
+05§42 562202200 562203099 Paul and the Chief Captain
+05§43 562300100 562301199 The Hearing in the Presence of the Sanhedrin
+05§44 562301200 562302299 The Plot to Kill Paul
+05§45 562302300 562303599 Paul Brought to Caesarea
+05§46 562400100 562402299 Paul’s Trial before Felix
+05§47 562402300 562402799 Paul Retained a Prisoner
+05§48 562500100 562501299 Paul Appeals to Caesar
+05§49 562501300 562502799 Agrippa and Bernice in Caesarea
+05§50 562600100 562603299 The Hearing before Agrippa
+05§51 562700100 562704499 The Voyage from Caesarea to Melita
+05§52 562800100 562801699 The Journey from Melita to Rome
+05§53 562801700 562803199 Two Years at Rome
+06§01 570100100 570100799 The Salutation of the Letter
+06§02 570100800 570101599 The Introduction to the Letter
+06§03 570101600 570101799 The Theme of the Letter
+06§04 570101800 570103299 The Moral Decay of the Gentile World
+06§05 570200100 570201099 God’s Righteous Judgment
+06§06 570201100 570202999 The Necessity of Keeping the Law Properly
+06§07 570300100 570300899 Man’s Guilt and God’s Righteousness
+06§08 570300900 570302099 The Scriptural Proof for the Universal Guilt of Mankind
+06§09 570302100 570303199 Justification by Faith
+06§10 570400100 570402599 The Righteousness of God Demonstrated from History
+06§11 570500100 570501199 The Blessed Consequences of Justification
+06§12 570501200 570502199 The First and the Second Adam
+06§13 570600100 570601499 Sanctification as a Fruit of Justification
+06§14 570601500 570602399 The Service of Righteousness
+06§15 570700100 570700699 Freedom from the Law
+06§16 570700700 570702599 The Purpose of the Law and Its Effect
+06§17 570800100 570801799 The Life in the Spirit
+06§18 570801800 570803999 Comfort in the Manifold Afflictions of this Life
+06§19 570900100 570901399 The Distinction between the True and the False Israel
+06§20 570901400 570902999 The Divine Sovereignty and Its Result
+06§21 570903000 571002199 Israel’s Unbelief
+06§22 571100100 571101099 A Remnant of Israel Saved
+06§23 571101100 571103699 An Admonition and Encouragement to Gentiles and Jews
+06§24 571200100 571202199 The Christian’s Life a Reasonable Service to God
+06§25 571300100 571300799 Obedience to the Government
+06§26 571300800 571301499 Love toward One’s Neighbor, the Walk in the Light
+06§27 571400100 571402399 The Conduct of Christians toward Such as Are Weak in Faith
+06§28 571500100 571501399 An Admonition to Patience and Harmony
+06§29 571501400 571503399 The Epilog of the Letter
+06§30 571600100 571602499 A Recommendation, Greetings, and a Final Admonition
+07§01 580100100 580100999 Salutation and Thanksgiving
+07§02 580101000 580101699 A Reproof of Disharmony
+07§03 580101700 580103199 The Wisdom of God and the Foolishness of Men
+07§04 580200100 580201699 The Preaching of the Cross
+07§05 580300100 580302399 A Reproof of Spiritual Pride
+07§06 580400100 580402199 The Work of the Ministers of Christ
+07§07 580500100 580501399 The Necessity of Church Discipline
+07§08 580600100 580601199 Lawsuits against Believers
+07§09 580601200 580602099 The Necessity of Keeping the Body Undefiled
+07§10 580700100 580704099 Instructions with Regard to Marriage
+07§11 580800100 580801399 Christian Liberty in the Matter of Eating Meat Offered to Idols
+07§12 580900100 580902799 Paul the Free Servant of Christ
+07§13 581000100 581001399 A Warning against Carnal Security
+07§14 581001400 581003399 Conduct toward the Weak
+07§15 581100100 581103499 Conduct in Public Worship
+07§16 581200100 581203199 Of the Use and Purpose of Spiritual Gifts
+07§17 581300100 581301399 A Psalm of Love
+07§18 581400100 581404099 The Use of Spiritual Gifts in Public Worship
+07§19 581500100 581505899 Of the Resurrection of the Dead
+07§20 581600100 581602499 Concluding Admonitions
+08§01 590100100 590101199 Address, Thanksgiving, and Consolation
+08§02 590101200 590102499 Paul’s Vindication of His Conduct and Life
+08§03 590200100 590201199 Paul’s Apostolic Kindness
+08§04 590201200 590201799 Paul’s Triumph in Christ
+08§05 590300100 590301899 The Glory of the New Testament Ministry
+08§06 590400100 590401899 The Gospel-Message of Light and Life
+08§07 590500100 590501099 Paul’s Longing for the Future Glory
+08§08 590501100 590502199 Paul an Ambassador of Christ
+08§09 590600100 590601099 Paul’s Ministry in the Midst of Difficulties
+08§10 590601100 590601899 Admonition to Flee the Fellowship of Unbelievers
+08§11 590700100 590701699 Paul’s Consolation and Joy because of the Corinthians
+08§12 590800100 590802499 Paul’s Tactful Appeal and Recommendation
+08§13 590900100 590901599 Paul’s Final Instructions Concerning the Collection
+08§14 591000100 591001899 Paul’s Apostolic Authority
+08§15 591100100 591101599 The True Apostle and the False Teachers
+08§16 591101600 591103399 Paul’s Boast of His Apostolic Calling
+08§17 591200100 591201099 Paul’s Boast of His Weakness
+08§18 591201100 591202199 What Paul Expects of the Corinthians
+08§19 591300100 591301399 A Concluding Admonition and Greetings
+09§01 600100100 600100599 Introductory Greeting and Doxology
+09§02 600100600 600101099 Paul’s Reason for Writing the Epistle
+09§03 600101100 600102499 Paul Called by God
+09§04 600200100 600201099 Further Confirmation of Paul’s Apostleship
+09§05 600201100 600202199 Paul’s Reproof of Peter, and the Lessons Drawn Therefrom
+09§06 600300100 600301899 Salvation Is Not of Works, but by Faith
+09§07 600301900 600302999 Proofs for the Liberty of a Christian from the Nature and Meaning of the Law
+09§08 600400100 600403199 The Sonship of the Believers Opposed to the Bondage of the Law
+09§09 600500100 600502699 Christian Liberty an Incentive to Holiness of Life
+09§10 600600100 600601099 An Admonition to Serve One’s Neighbor in Love
+09§11 600601100 600601899 Concluding Remarks
+10§01 610100100 610100299 Salutation
+10§02 610100300 610101499 The Blessings of Eternal Election
+10§03 610101500 610102399 Prayer for Spiritual Enlightenment
+10§04 610200100 610202299 The Church as the Sum Total of Men Saved by Grace
+10§05 610300100 610302199 The Ministry of Paul for the Edification of the Church
+10§06 610400100 610403299 Admonitions to Unity, Perfection in Knowledge, Holiness, and Peace
+10§07 610500100 610502199 A Warning, Principally against the Sins of Uncleanness
+10§08 610502200 610503399 The Duties of Husbands and Wives and the Relation of Christ to the Church
+10§09 610600100 610600999 The Duties of Children, of Parents, of Servants
+10§10 610601000 610602099 The Christian’s Spiritual Armor and Its Use
+10§11 610602100 610602499 Concluding Remarks and Greeting
+11§01 620100100 620100299 The Address and Salutation
+11§02 620100300 620101199 The Apostle’s Personal Feeling toward the Philippian Christians
+11§03 620101200 620102699 Paul’s Present Circumstances, Experiences, and Expectations
+11§04 620102700 620103099 An Admonition to Constancy and True Unity
+11§05 620200100 620200499 The Need of Loving Humility
+11§06 620200500 620201199 The Example of Christ’s Humility
+11§07 620201200 620201899 Work Out Your Salvation with Fear and Trembling
+11§08 620201900 620203099 Recommendation of Timothy and Epaphroditus
+11§09 620300100 620301199 The Dangers of Judaistic Teaching
+11§10 620301200 620302199 Pursuing the Goal
+11§11 620400100 620400399 Firmness and Unanimity Enjoined
+11§12 620400400 620400999 The Rejoicing of the Christians Especially in Their Fellowship with Christ
+11§13 620401000 620402099 Acknowledgment of the Kindness of the Philippians
+11§14 620402100 620402399 Greetings and Conclusion
+12§01 630100100 630100299 The Opening Salutation
+12§02 630100300 630101499 Paul’s Prayer of Thanksgiving and Intercession
+12§03 630101500 630102999 The Work of the Exalted Christ through the Medium of the Ministry
+12§04 630200100 630200899 A Warning against Error
+12§05 630200900 630202399 Christ’s Work for His Church, Resulting in Sanctification
+12§06 630300100 630300499 The Affections of the Christians Set on Things Above
+12§07 630300500 630301199 Putting Off the Old Man and Putting On the New
+12§08 630301200 630400199 The Rule of God’s Peace and Its Effect on Various Stations in Life
+12§09 630400200 630400699 Concluding Admonitions
+12§10 630400700 630401899 Personal Matters, Greetings, and Concluding Salutation
+13§01 640100100 640100499 Introduction and Thanksgiving
+13§02 640100500 640101099 A Recommendation of the Congregation’s Attitude
+13§03 640200100 640201299 Paul’s Manner of Working in Thessalonica
+13§04 640201300 640202099 The Manner in Which the Thessalonians Received the Gospel
+13§05 640300100 640301399 Various Proofs of Paul’s Love for the Thessalonians
+13§06 640400100 640401299 Warning Regarding Various Sins
+13§07 640401300 640401899 Information about the Resurrection of the Dead
+13§08 640500100 640501199 Christian Watchfulness with Reference to the Last Day
+13§09 640501200 640502899 Concluding Admonitions and Greeting
+14§01 650100100 650100299 Introductory Salutation
+14§02 650100300 650101299 Paul’s Prayer of Thanksgiving and Intercession
+14§03 650200100 650201799 The Man of Sin and the Mystery of Iniquity
+14§04 650300100 650301899 Concluding Exhortations and Greeting
+15§01 660100100 660100299 Address and Greeting
+15§02 660100300 660100799 Warning Against False Teachers
+15§03 660100800 660101199 The Real Purpose of the Law
+15§04 660101200 660101799 Paul’s Praise for the Grace which He has Experienced
+15§05 660101800 660102099 A Warning against Apostasy
+15§06 660200100 660200899 An Admonition to Pray for All Men on the Basis of Christ’s Atoning Death
+15§07 660200900 660201599 The Station and Calling of Christian Women
+15§08 660300100 660300799 The Office of a Bishop, or Overseer
+15§09 660300800 660301399 The Office of Deacons
+15§10 660301400 660301699 The Purpose of Paul’s Letter and a Doxology
+15§11 660400100 660400599 The False Doctrines of the Last Days and Their Refutation
+15§12 660400600 660401699 The Personal Conduct of Timothy
+15§13 660500100 660500899 The Pastoral Care of the Aged, the Young, the Widows
+15§14 660500900 660501699 The Care of Widows on the Part of the Congregation
+15§15 660501700 660600299 Rules of Conduct with Regard to the Elders of the Congregation
+15§16 660600300 660600599 A Description Characterizing the Errorists
+15§17 660600600 660601099 The Sin of Avarice and Its Results
+15§18 660601100 660601699 The Conduct of the True Christian and Its Reward
+15§19 660601700 660602199 Final Admonitions and Conclusion
+16§01 670100100 670100299 Address and Salutation
+16§02 670100300 670100499 Paul Reminds Timothy of His Early Training and Its Obligations
+16§03 670100500 670101499 An Admonition to Steadfastness
+16§04 670101500 670101899 Paul’s Sorrowful and Cheerful Experiences
+16§05 670200100 670200799 Admonition to Faithfulness in the Ministry
+16§06 670200800 670201399 An Admonition to Faithfulness in Faith and Christian Conduct
+16§07 670201400 670201899 The Proper Dividing of the Word of God
+16§08 670201900 670202199 Of Clean and Unclean Vessels
+16§09 670202200 670202699 The Minister’s Personal Conduct
+16§10 670300100 670300999 The False Teachers and False Brethren of the Last Days
+16§11 670301000 670301399 The Special Lessons of Paul’s Afflictions
+16§12 670301400 670301799 The Purpose of Holy Scriptures
+16§13 670400100 670400599 Faithfulness in Office
+16§14 670400600 670400899 Paul’s Fight and Victory
+16§15 670400900 670401899 A Report Concerning Various Acquaintances and the First Hearing
+16§16 670401900 670402299 Concluding Remarks and Greeting
+17§01 680100100 680100499 Address and Opening Salutation
+17§02 680100500 680100999 The Qualifications of Christian Pastors
+17§03 680101000 680101699 The False Teachers Characterized and the Question of How to Deal with Them
+17§04 680200100 680201099 Admonitions concerning Various Stations
+17§05 680201100 680201599 The Grace of Salvation and Its Sanctifying Power
+17§06 680300100 680300399 An Admonition to Obedience and Meekness
+17§07 680300400 680300899 The Washing of Regeneration and Its Wonderful Power
+17§08 680300900 680301199 The Conduct of Titus toward False Teachers and Heretics
+17§09 680301200 680301599 Final Directions and Greetings
+18§01 690100100 690100399 Address and Salutation
+18§02 690100400 690100799 Paul’s Thankfulness and Sympathy on Account of Philemon’s Christian State
+18§03 690100800 690101499 Paul’s Intercession for Onesimus
+18§04 690101500 690102099 Another Point Urged by the Apostle
+18§05 690102100 690102599 Concluding Remarks and Greeting
+19§01 700100100 700101499 The Superiority of Christ over the Angels
+19§02 700200100 700201399 The Need of Cheerful Obedience to Christ
+19§03 700201400 700201899 The Deliverance Effected by Christ
+19§04 700300100 700301999 The Superiority of Christ over Moses
+19§05 700400100 700401099 A Further Warning against Unbelief
+19§06 700401100 700401699 Boldness in Faith in Our High Priest
+19§07 700500100 700501099 The Authority of Christ, Our High Priest
+19§08 700501100 700501499 A Reproof of Spiritual Ignorance
+19§09 700600100 700602099 An Exhortation to Progress and Steadfastness in the Faith
+19§10 700700100 700702899 A Comparison between Christ and Melchizedek
+19§11 700800100 700801399 Christ’s Eternal Priesthood has Superseded the Temporary Priesthood of Aaron
+19§12 700900100 700902899 The Old Testament System Inferior to the Perfection of Christ’s Sacrifice
+19§13 701000100 701001899 The Superiority of the One Perfect Offering of Christ
+19§14 701001900 701003999 An Admonition to Stand Firm in the Faith, with Patience and Thanksgiving
+19§15 701100100 701104099 A Wonderful Epic on the Power of Faith
+19§16 701200100 701201399 An Appeal to Heed the Old Testament Examples, Aided by God’s Chastisement
+19§17 701201400 701202999 A Warning against Apostasy on the Basis of the Excellency of the New Covenant
+19§18 701300100 701302599 Final Admonitions and Conclusion
+20§01 710100100 710101599 Various Temptations and Their Endurance
+20§02 710101600 710102799 God’s Fatherhood and the Obligations of Sonship
+20§03 710200100 710202699 Dead Faith Compared with Living Faith
+20§04 710300100 710301899 Caution against False Activity in Teaching and the Use of the Tongue
+20§05 710400100 710401799 Caution against Worldly-Mindedness and Its Consequences
+20§06 710500100 710502099 Various Admonitions in View of the Nearness of the Judgment
+21§01 720100100 720100299 Address and Salutation
+21§02 720100300 720101299 A Praise of God for His Manifold Blessings
+21§03 720101300 720102599 An Admonition to Lead a Godly Life
+21§04 720200100 720201099 Further Practical Admonitions
+21§05 720201100 720202599 Specific Admonitions Concerning the Station of the Christians
+21§06 720300100 720300799 Exhortations to the Married
+21§07 720300800 720302299 Exhortations to Christians in General
+21§08 720400100 720401999 Admonitions in View of the Second Coming of Christ
+21§09 720500100 720501499 Final Admonitions and Concluding Greetings
+22§01 730100100 730100299 Address and Salutation
+22§02 730100300 730101199 The Obligations Imposed upon the Believers by the Rich Promises of God
+22§03 730101200 730102199 The Reliability of the Gospel and of the Prophecy
+22§04 730200100 730202299 A Warning against the False Teachers of All Times
+22§05 730300100 730301899 The Certain Coming of Christ and Its Lessons
+23§01 740100100 740101099 Christ’s Person and Office
+23§02 740200100 740202999 Christ’s Propitiation and Its Influence upon the Life of the Christians
+23§03 740300100 740302499 The Glory, Privileges, and Obligations of Sonship
+23§04 740400100 740400699 The Attitude of Christians toward False Teachers and toward One Another (part 1)
+23§04b 740400700 740402199 The Attitude of Christians toward False Teachers and toward One Another (part 2)
+23§05 740500100 740501299 The Power, Testimony, and Substance of Faith
+23§06 740501300 740502199 A Concluding Summary
+24§01 750100100 750100399 Address and Salutation
+24§02 750100400 750100699 Exhortation to Walk in Truth and Love
+24§03 750100700 750101199 Warning against False Teachers
+24§04 750101200 750101399 Conclusion
+25§01 760100100 760100499 Address and Commendation
+25§02 760100500 760100899 The Hospitality of Gaius
+25§03 760100900 760101199 The Insolence of Diotrephes
+25§04 760101200 760101599 Commendation of Demetrius and Conclusion
+26§01 770100100 770100299 Introductory Salutation
+26§02 770100300 770100499 An Exhortation to Constancy in Faith
+26§03 770100500 770100799 Examples of the Judgment of God
+26§04 770100800 770101399 The Character of the Seducing Teachers
+26§05 770101400 770101699 God’s Coming Judgment Upon the False Teachers
+26§06 770101700 770102399 An Admonition to Holy Steadfastness
+26§07 770102400 770102599 Concluding Doxology
+27§01 780100100 780102099 The Mystery of the Seven Stars and the Seven Candlesticks
+27§02 780200100 780202999 Letters to Congregations at Ephesus, Smyrna, Pergamum, and Thyatira
+27§03 780300100 780302299 Letters to the Congregations at Sardis, at Philadelphia, and at Laodicea
+27§04 780400100 780401199 The Vision of God’s Throne of Majesty and Glory
+27§05 780500100 780501499 Christ, the Lion and the Lamb, Praised with a New Song
+27§06 780600100 780601799 The Opening of Six Seals of the Scroll
+27§07 780700100 780701799 The Comfort of the Church in Spiritual Afflictions
+27§08 780800100 780801399 The Third Vision and the Opening of the Seventh Seal
+27§09 780900100 780902199 The Sounding or the Fifth and Sixth Trumpets
+27§10 781000100 781001199 The Angel and the Little Scroll
+27§11 781100100 781101999 Of the Two Witnesses and the Sounding of the Seventh Trumpet
+27§12 781200100 781201799 The Battle of Michael with the Dragon
+27§13 781300100 781301899 The Seven-Headed Beast of Blasphemy and the Two-Horned Beast of Deceit
+27§14 781400100 781402099 Of the 144,000 and the Fall of Spiritual Babylon
+27§15 781500100 781500899 The Angels with the Seven Vials and the Opening of the Temple
+27§16 781600100 781602199 The Seven Vials of Wrath are Poured Out
+27§17 781700100 781701899 The Kingdom of Antichrist Symbolized by the Great Harlot
+27§18 781800100 781802499 The Fall and Destruction of Antichrist’s Kingdom
+27§19 781900100 781902199 The Triumph of the Elect in Heaven
+27§20 782000100 782001599 Of the Dragon Bound and Loosed, of Gog and Magog, and of the Last Judgment
+27§21 782100100 782102799 The Seventh Vision: Of the Heavenly Jerusalem
+27§22 782200100 782202099 Of the Certain Bliss of Eternal Life
