@@ -1,7 +1,18 @@
+import enum
+from pathlib import Path
+
+
+MYPATH = Path(__file__).parent
+
+
+TokenType = enum.Enum('TokenType', 'unpointed pointed lemma gloss parse')
+ChunkType = enum.Enum('TokenType', 'book sentence verse pericope')
+
+
 def peshitta_section(s, e):
     start = int(s)
     end = int(e)
-    with open('peshitta_list.txt') as f:
+    with open(MYPATH / Path('peshitta_list.txt')) as f:
         for line in f:
             r, word, pointed, lemma, gloss, parse = line.split('\t', maxsplit=5)
             ref = int(r)
@@ -11,7 +22,7 @@ def peshitta_section(s, e):
                 break
 
 def peshitta_pericopes():
-    with open("peshitta_sections.txt", 'r') as f:
+    with open(MYPATH / Path ("peshitta_sections.txt"), 'r') as f:
         for line in f:
             yield line.strip().split(" ", maxsplit=3)
 
